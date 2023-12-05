@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-
+public class App{
 public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         String usuario;
@@ -44,5 +44,5 @@ public static void main(String[] args) {
         System.out.println("Has acertado: " + contador + " de 10");
         sc.close();
 }
-
+}
 
