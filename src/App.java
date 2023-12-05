@@ -5,7 +5,7 @@ public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         String usuario;
         String preguntas[] = new String [10]; //Aqui creamos el array preguntas. Lo instanciamos como el escaner y le decimos entre los corchetes el tamaño del array
-        String respuestas[] = new String [10];
+        String respuesta[] = new String [10];
         int contador = 0;
         preguntas [0]= "¿Cuál es la capital de España?";//Aqui vamos a darle valor a los 10 arrys vacios que tenemos, en encuenta que se empieza en 0
         preguntas [1]="¿Cuál es la capital de Francia?";
